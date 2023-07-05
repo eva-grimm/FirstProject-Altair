@@ -19,3 +19,24 @@ h1 {
 .heroImage {
     max-width: 100px;
 }
+
+/* # to code for a unique ID instead of a class */
+#heroText {
+    /* backup fonts, in case browser can't use the primary font, the secondary font, etc. */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    /* em is a unit based on the default font size; 4em is roughly 4 times the default size */
+    font-size: 4em;
+    margin: 0;
+
+    /* transform existing text to uppercase */
+    text-transform: uppercase;
+    color: white;
+    /* -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: red;
+    text-shadow: 2px 1px #292929; */
+}
+
+h2 span {
+    background-color: red;
+}
