@@ -1,0 +1,68 @@
+<!DOCTYPE html> <!--tells the browser how to read this file-->
+<html lang="en"><!--tells the browser what language the page is in-->
+
+<head><!--tells browser 'here's some info you may need to know,' but this doesn't appear actually in the webpage-->
+    <meta charset="UTF-8"><!--need this 99.8% of the time-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <!--initial width & scale; add shrink-to-fit line-->
+
+    <!--calling latest version of bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <!--tells html where to find our css file and what its relationship is-->
+    <!--pulling our css afterwards means whatever we've put in our css overrides bootstrap-->
+    <link href="/css/site.css" rel="stylesheet">
+    <title>Altair First Project</title>
+</head>
+
+<body><!--what's actually visible in the page-->
+    <header class="mb-3">
+        <!--bscf-nav-base to populate-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/index.html">
+                    <img src="/img/meteor-avatar-squared.png" alt="Bootstrap" width="45">
+                </a>
+
+                <!--hamburger menu button-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/index.html">Index</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/page2.html">Page 2</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/marvel.html">Marvel Fan Page</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header><!--semantic tag; what's at the top of the page; typically where you'd put a nav bar-->
+
+    <main class="container">
+        <img src="/img/CF_Logo_BO.png" alt="Coder Foundry" class="img-fluid p-3" />
+        <h1>Welcome to my First Webpage with the Altair Cohort</h1>
+        <p class="green-text">I built this website myself.</p>
+        <p class="red-text">Also, I really love Marvel comics.</p>
+    </main><!--semantic tag; where the main body of the page is-->
+
+    <footer></footer>
+    <!--semantic tag; where the bottom of the page is; typically where contact us, copyright, etc. is-->
+
+    <!--adds some JS bootstrap fuctionality we'll discuss later-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

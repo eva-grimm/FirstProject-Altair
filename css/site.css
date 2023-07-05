@@ -1,0 +1,21 @@
+h1 {
+    color: purple;
+}
+
+/* '.' targets a class instead of an element; creates class of green text */
+.green-text {
+    color: green;
+}
+
+/* creates class of red text */
+.red-text {
+    color: red;
+}
+
+.logoImage {
+    max-width: 300px;
+}
+
+.heroImage {
+    max-width: 100px;
+}
