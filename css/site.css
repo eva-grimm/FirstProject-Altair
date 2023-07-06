@@ -20,6 +20,10 @@ h1 {
     max-width: 100px;
 }
 
+.detailsImage {
+    max-width: 200px;
+}
+
 /* # to code for a unique ID instead of a class */
 #heroText {
     /* backup fonts, in case browser can't use the primary font, the secondary font, etc. */
@@ -39,4 +43,14 @@ h1 {
 
 h2 span {
     background-color: red;
+}
+
+.hiddenLink {
+    text-decoration: none;
+    color: black;
+    transition: 3s color;
+}
+
+.hiddenLink:hover {
+    color: purple
 }
