@@ -54,3 +54,23 @@ h2 span {
 .hiddenLink:hover {
     color: purple
 }
+
+.bg-image {
+    /* grabs background image */
+    background-image: url(#);
+
+    /* fills page with bg instead of zooming on it */
+    background-size: cover;
+
+    /* centers the background when resizing */
+    background-position: center;
+
+    /* ensures the background doesn't repeat on larger monitors */
+    background-repeat: no-repeat;
+}
+
+.detailsTitle {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: #51bcff
+}
