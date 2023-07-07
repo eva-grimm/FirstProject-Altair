@@ -74,3 +74,11 @@ h2 span {
     text-align: center;
     color: #51bcff
 }
+
+.justify-text {
+    text-align: justify;
+}
+
+.center-text {
+    text-align: center;
+}
